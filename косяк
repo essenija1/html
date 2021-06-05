@@ -1,0 +1,184 @@
+помогите плиз, никак не могу блоки расположить нормально. Блок в середине во вкладке products никак не прописать. То подвал уезжает, то еще какая-то фигня. 
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Doc</title>
+  <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <header class="header">
+    	<ul class="menu">
+			<a href="indekc.html" class="Group 2"><img src="img1/Group 2.svg" alt="ring"></a>
+      <a href="#" class="Forma 1"><img src="img1/Forma 1.svg" alt="search"></a>
+         </ul>
+         <ul class="menu2">  
+            <a href="catalog.html" class="list"><img src="img1/list.svg" alt="list"></a>
+            <a href="#" class="man"><img src="img1/man.svg" alt="lk"></a>
+            <a href="#" class="corb"><img src="img1/corb.svg" alt="corb"></a>
+       </ul>
+    </header>
+     
+     <div class="arrivals">
+ 
+        <div class="pravo">
+            <h3 class="new arrival"><a class="new arrival" href="#">New Arrival</a></h3></div>   
+         <div class="levo">
+          <h3 class="home"><a class="home" href="#">Home /</a></h3>
+          <h3 class="men"><a class="men" href="#">Men /</a></h3>
+          <h3 class="newar"><a class="newar" href="#">New Arrival /</a></h3>
+         </div>  
+      </div>  
+
+
+
+  <div class="stul">
+   <a href="#" class="strelavlevo"><img src="img1/strelavlevo.svg" alt="strelavlevo"></a> 
+   <div class="baby"><img src="img1/baby.svg" alt="baby"></div>
+    <a href="#" class="strelavpravo"><img src="img1/strelavpravo.svg" alt="strelavpravo"></a>
+  </div>
+
+
+    <div class="collect">
+       <p class="Women Collection">WOMEN COLLECTION</p>
+    </div>
+    <div class="banner1">
+       <section class="ites-box1">
+          <div class="ites-flex1">
+            <div class="ites">
+            <a class="ites-link" href="#">
+              <img class="ites-img" src="img1/product-1.svg" alt="photo">
+              <div class="ites-txt-box1">
+                <p class="ites-desc">Mango T-Shirt</p>
+                <p class="ites-price">$52.00</p>
+              </div>
+            </a>
+            <div class="add-box">
+            <a class="add" href="#">
+              <img src="img/corb1.svg" alt="corb1">
+              <p class="add-txt">Add to Cart</p>
+
+            </a>
+            </div>
+             </div>
+            <div class="ites">
+            <a class="ites-link" href="#">
+              <img class="ites-img" src="img1/negr.svg" alt="photo">
+              <div class="ites-txt-box1">
+                <p class="ites-desc">Mango T-Shirt</p>
+                <p class="ites-price">$52.00</p>
+              </div>
+            </a>
+            <div class="add-box">
+            <a class="add" href="#">
+              <img src="img/corb1.svg" alt="corb1">
+              <p class="add-txt">Add to Cart</p>
+
+            </a>
+            </div>
+             </div>
+            <div class="ites">
+            <a class="ites-link" href="#">
+              <img class="ites-img" src="img1/shorty.svg" alt="photo">
+              <div class="ites-txt-box1">
+                <p class="ites-desc">Mango T-Shirt</p>
+                <p class="ites-price">$52.00</p>
+              </div>
+            </a>
+            <div class="add-box">
+            <a class="add" href="#">
+              <img src="img/corb1.svg" alt="corb1">
+              <p class="add-txt">Add to Cart</p>
+
+            </a>
+            </div>
+             </div>         
+      
+    </div>
+</section>
+</div>
+
+
+      <div class="verhpodvala">
+          <div class="podvallico"><img src="img1/lico.svg" alt="lico">
+       <h4 class="licotext">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</h4>
+        </div>
+        
+        <div class="sub"><h3 class="subscribe">SUBSCRIBE</h3></br>
+           <h4 class="subtext">For our newletter and promotion</h4>
+           <input type="email" email="enter your email" size="15" maxlength="30" placeholder="enter your email">
+           <a href="#" class="email_button">Subscribe</a>
+          </div>      
+      </div>
+
+
+    <div class="footer">
+          <div class="footer_text">Copyright &copy:Ola-la-la Все права защищены лично мной</div>
+          <div class="iconics">
+          <img src="img1/facebook.svg" alt="facebook">
+          <img src="img1/insta.svg" alt="insta">
+          <img src="img1/pin.svg" alt="pin">
+          <img src="img1/twitter.svg" alt="twitter">   
+          </div>                  
+    </div>
+
+
+
+    </body>
+   </head>
+  </html>
+  
+  
+  
+  
+  .css
+  
+    .stul{
+    	background-image: url("img1/stul.svg");
+    	font-weight: 100%;
+    	align-items: center;
+    	height: 777px;
+    	display: flex;
+    	justify-content: space-between;
+    	position: relative;
+    }
+
+.streli{
+	margin-top: 150px;
+	width: 100%;
+    }
+
+.ites-flex1{
+	margin-top: 260px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-right: 300px;
+	margin-left: 300px;
+}
+.ites-txt-box1{
+	padding-top: 20px;
+	background-color: #F8F8F8;
+}
+.baby{
+	align-items: center;
+
+}
+
+.COLLECT{
+	height: 600px;
+	width: 1040px;
+	background-color: white;
+	}
+
+.collection{
+	text-align: center;
+}
+
+
+.ites-box1{
+	margin-bottom: 30px;
+}
